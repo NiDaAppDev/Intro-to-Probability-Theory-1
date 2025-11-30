@@ -1,0 +1,2070 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children no
+\language hebrew
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "David"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "../../../../../../../texlive/MacrosStandard.lyx"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+הסתברות | תרגיל בית מס'
+\family roman
+\shape up
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ תומר לוי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+323961854
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ ניצן דלומי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+212071914
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר משתנה מקרי,
+ 
+\begin_inset Formula 
+\[
+X_{i}=\begin{cases}
+\left(1,0\right) & player\,1\,won\\
+\left(0,1\right) & player\,2\,won\\
+\left(0,0\right) & players\,tied
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+המסמן שהשחקן ה
+\begin_inset Formula $X$
+\end_inset
+
+ ניצח במשחק ה
+\begin_inset Formula $i$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נשים לב כי התפלגות מספר המטבעות שכל אחד מהשחקנים מרוויח בסוף המשחק היא סימטרית.
+\end_layout
+
+\begin_layout Standard
+כלומר נסתכל על 
+\begin_inset Formula $k$
+\end_inset
+
+ נצחונות עבור שחקן אחד,
+ לכל 
+\begin_inset Formula $1\leqslant k\leqslant n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נחשב 
+\begin_inset Formula 
+\[
+\probability\left(X=\left(1,0\right)\right)=\frac{1}{10}^{2}+\frac{1}{5}\cdot\sum_{i=1}^{4}\frac{i}{5}=\frac{41}{100}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסיק כי 
+\begin_inset Formula 
+\[
+\probability\left(X=\left(0,1\right)\right)=\frac{41}{100}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\probability\left(X=\left(0,0\right)\right)=\frac{18}{100}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשים לב כי
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula 
+\[
+Y=\sum_{i=1}^{m}X_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $m$
+\end_inset
+
+ הוא כמות המשחקים הכוללת,
+ כלומר 
+\begin_inset Formula $n+t$
+\end_inset
+
+,
+ 
+\begin_inset Formula $t$
+\end_inset
+
+ הוא מספר הפעמים שיצא תיקו,
+ והסכימה מוגדרת רכיב רכיב.
+\end_layout
+
+\begin_layout Standard
+כאשר השחקן ה
+\begin_inset Formula $1$
+\end_inset
+
+ ניצח 
+\begin_inset Formula $k$
+\end_inset
+
+ פעמים נקבל
+\begin_inset Formula 
+\[
+Y=\left(k,n-k\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וכעת נרצה לחשב לכל 
+\begin_inset Formula $1\leqslant k\leqslant n$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\probability\left(Y=\left(k,n-k\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסתכל תחילה על כמות הפעמים שקיבלנו תיקו,
+ מכיוון שהפעם האחרונה לא יכולה להסתיים בתיקו,
+ נקבל
+\begin_inset Formula 
+\[
+{m \choose t}\cdot\probability\left(X=\left(0,0\right)\right)^{t}={n+t-1 \choose t}\frac{18}{100}^{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ועל כמות הפעמים שהשחקן ה
+\begin_inset Formula $1$
+\end_inset
+
+ ניצח 
+\begin_inset Formula $k$
+\end_inset
+
+ פעמים,
+\begin_inset Formula 
+\[
+{n \choose k}\frac{41}{100}^{k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וכן,
+ השחקן השני ניצח 
+\begin_inset Formula $n-k$
+\end_inset
+
+ פעמים במקומות שנותרו,
+ לכן גם
+\begin_inset Formula 
+\[
+\frac{41}{100}^{n-k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם נסכום לכל כמות תיקו-ים,
+ בסך הכול ההתפלגות למספר המטבעות שכל שחקן מרוויח בסוף המשחק היא
+\begin_inset Formula 
+\[
+\sum_{t=0}^{\infty}{n+t-1 \choose t}\frac{18}{100}^{t}\cdot{n \choose k}\frac{41}{100}^{k}\cdot\frac{41}{100}^{n-k}=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשתמש בזהות כיוון ש
+\begin_inset Formula $\left|\frac{18}{100}\right|<1$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\sum_{t=1}^{\infty}{n+t-1 \choose t}\frac{18}{100}^{t}=\left(\frac{\frac{18}{100}}{1-\frac{18}{100}}\right)^{-n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן
+\begin_inset Formula 
+\[
+\probability\left(Y=\left(k,n-k\right)\right)={n \choose k}\frac{41}{100}^{k}\cdot\frac{41}{100}^{n-k}\left(1-\frac{18}{100}\right)^{-n}={n \choose k}\frac{41}{100}^{k}\cdot\frac{41}{100}^{n-k}\left(2\cdot\frac{41}{100}\right)^{-n}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+{n \choose k}\frac{41}{100}^{k}\cdot\frac{41}{100}^{n-k}\left(\frac{100}{2\cdot41}\right)^{n}={n \choose k}\frac{41}{100}^{n}\left(\frac{100}{2\cdot41}\right)^{n}={n \choose k}\left(\frac{1}{2}\right)^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר,
+ בסך הכול ההתפלגות ששחקן אחד זכה ב
+\begin_inset Formula $k$
+\end_inset
+
+ מטבעות היא 
+\begin_inset Formula $Bin\left(n,\frac{1}{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מרגיש לי שיש דרך הרבה יותר קצרה מזה.
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ההסתברות לקבל תוצאת תיקו בהטלה מסוימת היא 
+\begin_inset Formula 
+\[
+\frac{18}{100}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(ג)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ההסתברות שמספר הסיבובים הכולל במשחק יהיה לכל היותר 
+\begin_inset Formula $n+1$
+\end_inset
+
+ אומר לנו שמספר הסיבובים הוא 
+\begin_inset Formula $\left\{ n,n+1\right\} \ni$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כלומר,
+ רק ניצחונות,
+ או ניצחונות ותיקו אחד,
+ ניצחונות כלומר לא משנה איזה שחקן ניצח.
+\end_layout
+
+\begin_layout Standard
+ההסתברות לניצחון היא 
+\begin_inset Formula $\frac{82}{100}$
+\end_inset
+
+,
+ ההסתברות לתיקו היא 
+\begin_inset Formula $\frac{18}{100}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן נרצה אפס תיקו-ים
+\begin_inset Formula 
+\[
+\frac{82}{100}^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ואחד תיקו-ים
+\begin_inset Formula 
+\[
+{n \choose 1}\frac{82}{100}^{n}\cdot\frac{18}{100}=n\cdot\frac{82}{100}^{n}\cdot\frac{18}{100}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר 
+\begin_inset Formula 
+\[
+n\cdot\frac{82}{100}^{n}\cdot\frac{18}{100}+\frac{82}{100}^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכיוון ש
+\begin_inset Formula $X\sim Bin\left(n,p\right)$
+\end_inset
+
+,
+ נקבל כי 
+\begin_inset Formula 
+\[
+\probability\left(X=k\right)={n \choose k}p^{k}\left(1-p\right)^{n-k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וכן,
+ 
+\begin_inset Formula $Y\sim Bin\left(n,1-p\right)$
+\end_inset
+
+ אומר 
+\begin_inset Formula 
+\[
+\probability\left(Y=k\right)={n \choose k}\left(1-p\right)^{k}\left(p\right)^{n-k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $k$
+\end_inset
+
+,
+ נרצה להראות כי 
+\begin_inset Formula 
+\[
+\probability\left(n-X=k\right)=\probability\left(Y=k\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוכל גם לכתוב כמובן 
+\begin_inset Formula 
+\[
+\probability\left(n-X=k\right)=\probability\left(X=n-k\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ונכתוב בסך הכול 
+\begin_inset Formula 
+\[
+\probability\left(X=n-k\right)={n \choose n-k}p^{n-k}\left(1-p\right)^{n-\left(n-k\right)}\overset{{n \choose n-k}={n \choose k}}{=}{n \choose k}p^{n-k}\left(1-p\right)^{k}=\probability\left(Y=k\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וסיימנו.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\probability\left(X=k\right)=\probability\left(\sum_{i=1}^{n}X_{i}=k\right)={n \choose k}p^{k}\left(1-p\right)^{n-k}\Rightarrow X\sim Bin\left(n,p\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כיוון שאנחנו רוצים 
+\begin_inset Formula $k$
+\end_inset
+
+ הצלחות,
+ כלומר שיתקבל 
+\begin_inset Formula $X_{i}=1$
+\end_inset
+
+ 
+\begin_inset Formula $k$
+\end_inset
+
+ פעמים,
+ ונבחר אילו מיקומים להצלחות הללו מתוך 
+\begin_inset Formula $n$
+\end_inset
+
+ הנסכמים.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\probability\left(Y=k\right)=\probability\left(\sum_{i=1}^{n}Y_{i}=k\right)=\probability\left(\sum_{i=1}^{n}X_{i}Z_{i}=k\right)={n \choose k}qp{}^{k}\left(1-qp\right)^{n-k}\Rightarrow Y\sim Bin\left(n,qp\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כיוון שאנחנו רוצים 
+\begin_inset Formula $k$
+\end_inset
+
+ הצלחות,
+ כלומר שיתקבל 
+\begin_inset Formula $X_{i}Z_{i}=1$
+\end_inset
+
+ 
+\begin_inset Formula $k$
+\end_inset
+
+ פעמים.
+ 
+\end_layout
+
+\begin_layout Standard
+מכיוון שהמשתנים הללו בלתי תלויים,
+ נרצה 
+\begin_inset Formula $\probability\left(X_{i}=1,Z_{i}=1\right)=\probability\left(X_{i}=1\right)\cdot\probability\left(Z_{i}=1\right)=qp$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $\probability\left(X_{i}Z_{i}=0\right)=1-qp$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ונבחר אילו מיקומים להצלחות הללו מתוך 
+\begin_inset Formula $n$
+\end_inset
+
+ הנסכמים.
+\end_layout
+
+\begin_layout Standard
+כעת נתבונן ב
+\begin_inset Formula 
+\[
+Y\vert\left\{ X=m\right\} =\frac{\probability\left(Y=k\cap X=m\right)}{\probability\left(X=m\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זה נכון כי אנו רוצים 
+\begin_inset Formula $m$
+\end_inset
+
+ הצלחות מתוך 
+\begin_inset Formula $n$
+\end_inset
+
+ של 
+\begin_inset Formula $X$
+\end_inset
+
+ וגם לבחור בדיוק 
+\begin_inset Formula $k$
+\end_inset
+
+ הצלחות מתוך 
+\begin_inset Formula $m$
+\end_inset
+
+ של 
+\begin_inset Formula $Z$
+\end_inset
+
+,
+ ומאי תלות,
+ נכפיל ביניהם ונקבל
+\begin_inset Formula 
+\[
+\frac{{n \choose m}{m \choose k}p^{m}\left(1-p\right)^{n-m}q^{k}\left(1-q\right)^{m-k}}{{n \choose m}p^{m}\left(1-p\right)^{n-m}}=\frac{{m \choose k}q^{k}\left(1-q\right)^{m-k}}{1}={m \choose k}q^{k}\left(1-q\right)^{m-k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובסך הכול
+\begin_inset Formula $Y\vert\left\{ X=m\right\} \sim Bin\left(m,q\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תחת הנחות השאלה,
+ הראינו זאת בסעיף הקודם.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\probability\left(\min\left\{ X,Y\right\} =k\right)=\probability\left(X=k,Y>k\right)+\probability\left(X>k,Y=k\right)+\probability\left(X=k,Y=k\right)=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+2\cdot\left(1-p\right)^{k-1}p\cdot\left(1-p\right)^{k}+\left(\left(1-p\right)^{k-1}p\right)^{2}=2\cdot p\left(1-p\right)^{2k-1}+p^{2}\left(1-p\right)^{2k-2}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p\left(2-p\right)\left(1-p\right)^{2k-2}=\left(2p-p^{2}\right)\left(1-p\right)^{2\left(k-1\right)}=\left(2p-p^{2}\right)\left(1-\left(2p-p^{2}\right)\right)^{\left(k-1\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר,
+ 
+\begin_inset Formula $\min\left\{ X,Y\right\} \sim Geo\left(2p-p^{2}\right)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\probability\left(X+Y=k\right)=\sum_{i=1}^{k-1}\probability\left(X=i,Y=k-i\right)=\sum_{i=1}^{k-1}\left(1-p\right)^{i-1}\cdot p\cdot\left(1-p\right)^{k-i-1}\cdot p=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p^{2}\sum_{i=1}^{k-1}\left(1-p\right)^{i-1}\left(1-p\right)^{k-i-1}=p^{2}\sum_{i=1}^{k-1}\left(1-p\right)^{k-2}=\left(k-1\right)p^{2}\left(1-p\right)^{k-2}={k-1 \choose 1}p^{2}\left(1-p\right)^{k-2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לא למדנו התפלגות בינומית שלילית אבל מבעיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4.111
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בספר,
+ מדובר בזה
+\end_layout
+
+\begin_layout Standard
+כלומר 
+\begin_inset Formula $X+Y\sim NB\left(2,p\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(ג)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\probability\left(X-Y=k\right)=\sum_{i=1}^{\infty}\probability\left(X=k+i,Y=i\right)=\sum_{i=1}^{\infty}\left(1-p\right)^{k+i-1}p\cdot\left(1-p\right)^{i-1}p=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\sum_{i=1}^{\infty}\left(1-p\right)^{k+2i-2}p^{2}=p^{2}\sum_{i=1}^{\infty}\left(1-p\right)^{k-2}\left(1-p\right)^{2i}=p^{2}\left(1-p\right)^{k-2}\sum_{i=1}^{\infty}\left(1-p\right)^{2i}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\overset{geometric\,sum}{=}p^{2}\left(1-p\right)^{k-2}\frac{\left(1-p\right)^{2}}{2p-p^{2}}=\frac{p^{2}\left(1-p\right)^{k}}{2p-p^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(ד)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(*\right)\probability\left(Y<k\right)=1-\probability\left(Y>k-1\right)=1-\left(1-p\right)^{k-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\probability\left(\max\left\{ X,Y\right\} =k\right)=\probability\left(X=k,Y=k\right)+\probability\left(X=k,Y<k\right)+\probability\left(X<k,Y=k\right)=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p^{2}\left(1-p\right)^{2k-2}+2\cdot\left(\left(1-p\right)^{n-1}p\right)\cdot\left(1-\left(1-p\right)^{k-1}\right)=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+2p\left(1-p\right)^{k-1}-\left(1-p\right)^{2k-2}\left(2p-p^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מטענה שראינו,
+ חוסר זיכרון גורר התפלגות גיאומטרית,
+ וחוסר זיכרון למאורע אחד גורר חוסר זיכרון לכל המאורעות.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z$
+\end_inset
+
+ סופר את כמות הפעמים ש
+\begin_inset Formula $X_{n}=0$
+\end_inset
+
+ עבור 
+\begin_inset Formula $n\geqslant1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $n=0$
+\end_inset
+
+,
+ נאמר כי 
+\begin_inset Formula $X_{n}=0$
+\end_inset
+
+,
+ ולכן,
+ אם עבור 
+\begin_inset Formula $n\geqslant1$
+\end_inset
+
+,
+ מתקיים 
+\begin_inset Formula $X_{n}=0$
+\end_inset
+
+,
+ ההסתברות לקבל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $0$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ שוב היא בדיוק כמו ההסתברות לקבל 
+\begin_inset Formula $0$
+\end_inset
+
+ בפעם הראשונה.
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $p$
+\end_inset
+
+=ההסתברות שלא חזרנו ל
+\begin_inset Formula $0$
+\end_inset
+
+ לאחר ביקור,
+ כלומר 
+\begin_inset Formula $\probability\left(\forall n>0:X_{n}\neq0\vert X_{0}=0\right)$
+\end_inset
+
+,
+ אם כן,
+ 
+\begin_inset Formula $1-p$
+\end_inset
+
+ = ההסתברות שחזרנו ל
+\begin_inset Formula $0$
+\end_inset
+
+ לפחות פעם אחת.
+\end_layout
+
+\begin_layout Standard
+נסמן את הפעם ה
+\begin_inset Formula $k$
+\end_inset
+
+ שחזרנו ל
+\begin_inset Formula $0$
+\end_inset
+
+ ב
+\begin_inset Formula $t_{k}$
+\end_inset
+
+,
+ ונגדיר 
+\begin_inset Formula $t_{0}=0$
+\end_inset
+
+.
+ 
+\begin_inset Formula $t_{k+1}=\min\left\{ n>k:X_{n}=0\right\} $
+\end_inset
+
+,
+ אם לא חזרנו נסמן 
+\begin_inset Formula $\infty$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מתקיים כי 
+\begin_inset Formula $Z=\max\left\{ k:t_{k}<\infty\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן
+\begin_inset Formula 
+\[
+\probability\left(t_{k}<\infty\vert t_{k-1}<\infty\right)=\probability\left(t_{1}<\infty\right)=1-p
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתקיים אם כך,
+ 
+\begin_inset Formula 
+\[
+\probability\left(Z\geqslant k\right)=\probability\left(t_{k-1}<\infty\right)=\left(1-p\right)^{k-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\[
+\probability\left(Z=k\right)=\probability\left(Z\geqslant k\right)-\probability\left(Z\geqslant k+1\right)=\left(1-p\right)^{k-1}-\left(1-p\right)^{k}=\left(1-p\right)^{k-1}p
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula $Z\sim Geo\left(p\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נרשום 
+\begin_inset Formula 
+\[
+\probability\left(X=k\vert X+Y=n\right)=\frac{\probability\left(X=k\right)\probability\left(Y=n-k\right)}{\probability\left(X+Y=n\right)}=\frac{\frac{e^{-\lambda}\lambda^{k}}{k!}\frac{e^{-\mu}\mu^{n-k}}{\left(n-k\right)!}}{\sum_{i=0}^{n}\probability\left(X=i\right)\probability\left(Y=n-i\right)}=\frac{\frac{e^{-\lambda}\lambda^{k}}{k!}\frac{e^{-\mu}\mu^{n-k}}{\left(n-k\right)!}}{\sum_{i=0}^{n}\frac{e^{-\lambda}\lambda^{i}}{i!}\frac{e^{-\mu}\mu^{n-i}}{\left(n-i\right)!}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{\frac{\lambda^{k}}{k!}\frac{\mu^{n-k}}{\left(n-k\right)!}}{\sum_{i=0}^{n}\frac{\lambda^{i}}{i!}\frac{\mu^{n-i}}{\left(n-i\right)!}}=\frac{\frac{\lambda^{k}\mu^{n-k}}{k!\left(n-k\right)!}}{\sum_{i=0}^{n}\frac{\lambda^{i}\mu^{n-i}}{i!\left(n-i\right)!}}\overset{\left(*\right)}{=}\frac{{n \choose k}\lambda^{k}\mu^{n-k}}{\sum_{i=0}^{n}{n \choose i}\lambda^{i}\mu^{n-i}}\overset{\left(**\right)}{=}{n \choose k}\frac{\lambda^{k}\mu^{n-k}}{\left(\lambda+\mu\right)^{n}}={n \choose k}\frac{\lambda^{k}}{\left(\lambda+\mu\right)^{k}}\frac{\mu^{n-k}}{\left(\lambda+\mu\right)^{n-k}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+{n \choose k}\left(\frac{\lambda}{\left(\lambda+\mu\right)}\right)^{k}\left(\frac{\mu}{\left(\lambda+\mu\right)}\right)^{n-k}=Bin\left(n,\frac{\lambda}{\lambda+\mu}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+- נוכל להכפיל את המונה והמכנה ב
+\begin_inset Formula $n!$
+\end_inset
+
+ ולהשתמש ב
+\begin_inset Formula ${n \choose i}=\frac{n!}{i!\left(n-i\right)!}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(**\right)$
+\end_inset
+
+- בינום
+\end_layout
+
+\begin_layout Standard
+וסיימנו.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כל האפשרויות בהם אלקרס ינצח 
+\begin_inset Formula $3$
+\end_inset
+
+ משחקים היא
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\frac{2}{3}\right)^{3}+3\cdot\left(\frac{2}{3}\right)^{3}\left(\frac{1}{3}\right)+6\cdot\left(\frac{2}{3}\right)^{3}\left(\frac{1}{3}\right)^{2}=\frac{64}{81}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הקשר להתפלגות בינומית היא שאנו בעצם בוחרים את האפשרויות לסדר את ההפסדים והנצחונות מתוך סדרה של 
+\begin_inset Formula $5$
+\end_inset
+
+ משחקים.
+\end_layout
+
+\begin_layout Standard
+כלומר אם היינו משחקים את כל ה
+\numeric on
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בלי להפסיק לאחר שהגענו ל
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ נצחונות היינו מקבלים בדיוק התפלגות בינומית של 
+\begin_inset Formula $3$
+\end_inset
+
+ ניצחונות כאשר 
+\begin_inset Formula $p=\frac{2}{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתוך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+משחקים.
+ כלומר 
+\begin_inset Formula 
+\[
+{5 \choose 3}\frac{2}{3}^{3}\frac{1}{3}^{2}=\frac{80}{243}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלת
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ בונוס
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסתכל על המושב הראשון והאחרון.
+\end_layout
+
+\begin_layout Standard
+בכל פעם שמישהו בוחר בצורה אקראית,
+ כלומר מתיישב לא במושב שלו,
+ מישהו בסופו של דבר יתיישב או במושב האחרון או במושב הראשון.
+\end_layout
+
+\begin_layout Standard
+אם מישהו בחר במושב הראשון,
+ סיימנו,
+ כיוון שהחל מהבן אדם הזה,
+ כולם יקבלו את המושב שלהם,
+ והבן אדם האחרון יישב במקום שלו.
+\end_layout
+
+\begin_layout Standard
+אם במקום זה נבחר המושב האחרון,
+ הבן אדם האחרון לא יישב במקום שלו.
+\end_layout
+
+\begin_layout Standard
+אם מישהו בחר במושב אחר,
+ לא הראשון ולא האחרון,
+ אנו בעצם מסתכלים בדיוק על אותה הבעיה פשוט עם פחות אנשים.
+\end_layout
+
+\begin_layout Standard
+זאת אומרת,
+ נחכה עד שהבן אדם ה
+\begin_inset Formula $k$
+\end_inset
+
+ הזה יגיע כי כולם יתיישבו במקומותיהם עד אז,
+ ואז הוא יצטרך לבחור שוב בין הראשון,
+ האחרון,
+ ומשהו שמצמצם את הבעיה.
+\end_layout
+
+\begin_layout Standard
+אנו בעצם מסתכלים על ההסתברות שהמושב האחרון נבחר קודם,
+ לעומת ההסתברות שהמושב הראשון נבחר קודם.
+\end_layout
+
+\begin_layout Standard
+מכיוון שכל ההסתברויות שוות התפלגות,
+ ההסתברות שהמושב הראשון ייבחר לפני האחרון או ההפך היא 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נכליל את המקרה של סעיף א',
+ ונסתכל על האיש ה
+\begin_inset Formula $k$
+\end_inset
+
+ לפני האחרון שמגיע לאולם.
+\end_layout
+
+\begin_layout Standard
+סעיף א' הוא במקרה ש
+\begin_inset Formula $k=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מתקיים כי לכל בן אדם חדש שמגיע יש בחירה,
+ בין:
+\end_layout
+
+\begin_layout Standard
+המושב הראשון - טוב לבן אדם ה
+\begin_inset Formula $k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כל מושב אחרי המושב ה
+\begin_inset Formula $k$
+\end_inset
+
+ - טוב לבן אדם ה
+\begin_inset Formula $k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+והמושב ה
+\begin_inset Formula $k$
+\end_inset
+
+ - רע לבן אדם ה
+\begin_inset Formula $k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם נבחר המושב הראשון,
+ כולם יתיישבו במקומותיהם החל מהמקום הזה והבן אדם ה
+\begin_inset Formula $k$
+\end_inset
+
+ גם יישב במקום שלו.
+\end_layout
+
+\begin_layout Standard
+אם נבחר כל מושב אחרי המושב ה
+\begin_inset Formula $k$
+\end_inset
+
+,
+ נגיד מושב 
+\begin_inset Formula $l$
+\end_inset
+
+,
+ ומתקיים 
+\begin_inset Formula $l>k$
+\end_inset
+
+,
+ כל האנשים עד המושב ה
+\begin_inset Formula $l$
+\end_inset
+
+,
+ כולל את 
+\begin_inset Formula $k$
+\end_inset
+
+,
+ יתיישבו במקומותיהם.
+\end_layout
+
+\begin_layout Standard
+אם נבחר המושב ה
+\begin_inset Formula $k$
+\end_inset
+
+,
+ אוי ואבוי לבן אדם ה
+\begin_inset Formula $k$
+\end_inset
+
+,
+ נתפס מקומו.
+\end_layout
+
+\begin_layout Standard
+בעצם,
+ יש לנו את המושב הראשון,
+ המושב ה
+\begin_inset Formula $k$
+\end_inset
+
+,
+ וכל המושבים לאחר המושב ה
+\begin_inset Formula $k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ושוב,
+ אם נבחר כל מושב אחר,
+ זה בעצם יהיה לא רלוונטי לבעיה.
+\end_layout
+
+\begin_layout Standard
+לכן,
+ יש בסך הכול 
+\begin_inset Formula $k+2$
+\end_inset
+
+ מושבים רלוונטים,
+ מתוכם רק המושב ה
+\begin_inset Formula $k$
+\end_inset
+
+ הוא בעייתי.
+\end_layout
+
+\begin_layout Standard
+כלומר,
+ בהסתברות של 
+\begin_inset Formula $\frac{1}{7}$
+\end_inset
+
+,
+ ייבחרו לבן אדם החמישי לפני האחרון את הכיסא שלו,
+ ובהסתברות של 
+\begin_inset Formula $\frac{6}{7}$
+\end_inset
+
+ הוא יבחר את הכיסא שכן שלו.
+\end_layout
+
+\end_body
+\end_document
