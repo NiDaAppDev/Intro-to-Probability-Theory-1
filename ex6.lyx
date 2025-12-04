@@ -465,6 +465,43 @@ today
 (ה)
 \end_layout
 
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+דוגמאת נגד:
+\begin_inset Formula 
+\begin{align*}
+ & \Omega=\left\{ 0,1\right\} \\
+ & \forall\omega\in\Omega\,\probability\left(\left\{ \omega\right\} \right)=\frac{1}{2}\\
+ & X\left(0\right)=Y\left(1\right)=-1\\
+ & X\left(1\right)=Y\left(0\right)=1\\
+ & \Ex\left(X\right)=0=\Ex\left(Y\right)\\
+ & \Ex\left(X^{2}\right)=1=\Ex\left(Y^{2}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר התנאים 
+\begin_inset Formula $\Ex\left(X\right)=\Ex\left(Y\right),\Ex\left(X^{2}\right)=\Ex\left(Y^{2}\right)$
+\end_inset
+
+ מתקיימים,
+ אך 
+\begin_inset Formula $\probability\left(X=Y\right)=0\ne1$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection*
 (ו)
 \end_layout
