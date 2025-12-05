@@ -507,6 +507,14 @@ today
 \end_layout
 
 \begin_layout Standard
+מ
+\begin_inset Quotes erd
+\end_inset
+
+מ אפס לכל המרחב מדגם
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -550,12 +558,22 @@ today
 (א)
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $\probability\left(X\right)=\frac{11-i}{55},\probability\left(Y\right)=\frac{j}{55}$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 (ב)
 \end_layout
 
-\begin_layout Subsection*
-(ג)
+\begin_layout Standard
+\begin_inset Formula $\expectedValue\left(X\right)=\sum_{i=1}^{10}i\cdot\frac{11-i}{55}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -599,6 +617,166 @@ today
 
 \begin_layout Subsection*
 (א)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X\sim Geo\left(\frac{1}{3}\right)$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $i\in\left[n\right]$
+\end_inset
+
+,
+ 
+\begin_inset Formula $Y_{i}$
+\end_inset
+
+ הוא מ
+\begin_inset Quotes erd
+\end_inset
+
+מ שיצא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בהטלה ה-
+\begin_inset Formula $i$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Y=\sum Y_{i}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Y\sim Bin\left(n,\frac{1}{3}\right)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
