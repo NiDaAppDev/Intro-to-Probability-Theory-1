@@ -1436,6 +1436,26 @@ today
 \end_layout
 
 \begin_layout Standard
+תוחלת זו אינה שווה למשתנה המקרי גיאומטרי 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+ שכן בהטלה האחרונה יש סיכוי של 
+\begin_inset Formula $\frac{1}{3}$
+\end_inset
+
+ להטלת 
+\begin_inset Formula $5,6$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שלא כמו בניסוי שההתפלגות הגיאומטרית מתארת.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1479,12 +1499,461 @@ today
 (א)
 \end_layout
 
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל זוג יצרנים 
+\begin_inset Formula $i,j$
+\end_inset
+
+ כך ש
+\begin_inset Formula $i\neq j$
+\end_inset
+
+,
+ היצרן ה
+\begin_inset Formula $i$
+\end_inset
+
+ מקבל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקודות אם 
+\begin_inset Formula $T_{i}>T_{j}$
+\end_inset
+
+,
+ כאשר 
+\begin_inset Formula $T_{i}$
+\end_inset
+
+ הוא מ
+\begin_inset Quotes erd
+\end_inset
+
+מ
+\end_layout
+
+\begin_layout Standard
+שמחזיר את היום בו הנורה ה
+\begin_inset Formula $i$
+\end_inset
+
+ נשרפה.
+\end_layout
+
+\begin_layout Standard
+עבור סך הנקודות,
+ נסתכל על כל זוג לא סדור,
+ אם יש שוויון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- לא נוסיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקודות ואחרת נוסיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקודות.
+\end_layout
+
+\begin_layout Standard
+לכן סך הנקודות שווה ל
+\begin_inset Formula $3$
+\end_inset
+
+ כפול זוגות לא סדורים שאין בהם שוויון.
+\end_layout
+
+\begin_layout Standard
+יש 
+\begin_inset Formula ${N \choose 2}$
+\end_inset
+
+ זוגות כאלו.
+\end_layout
+
+\begin_layout Standard
+כעת נחשב את 
+\begin_inset Formula $\probability\left(T_{i}\neq T_{j}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מכיוון שאלו משתנים מקריים בלתי תלויים וההתפלגות שלהם שווה,
+ נמצא כי 
+\begin_inset Formula 
+\[
+\probability\left(T_{i}=k,T_{j}=k\right)=\sum_{k=1}^{\infty}\left(T_{i}=k\right)^{2}=\sum_{k=1}^{\infty}\left(p^{k-1}\left(1-p\right)\right)^{2}=\left(1-p\right)^{2}\sum_{k=1}^{\infty}p^{2\left(k-1\right)}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\overset{m=k-1}{=}\left(1-p\right)^{2}\sum_{m=0}^{\infty}p^{2m}=\left(1-p\right)^{2}\frac{1}{1-p^{2}}=\frac{1-p}{1+p}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן בסך הכול 
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $\mathbb{I}_{ij}$
+\end_inset
+
+ משתנה מקרי מציין שאין שוויון ונקבל
+\begin_inset Formula 
+\[
+\expectedValue\left(total\,points\right)=3\cdot\sum_{i\neq j}\expectedValue\left(\mathbb{I}_{ij}\right)=3\cdot{N \choose 2}\left(1-\frac{1-p}{1+p}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 (ב)
 \end_layout
 
-\begin_layout Subsection*
-(ג)
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula 
+\[
+Y=\sum_{i\neq j\in\left[n\right]}\mathbb{I}_{x_{i}}=x_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחין כי המאורע 
+\begin_inset Quotes eld
+\end_inset
+
+בדיוק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נורות נשרפו ביום האחרון
+\begin_inset Quotes erd
+\end_inset
+
+ (נסמנו ב
+\begin_inset Formula $A_{1}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+הוא מקרה פרטי של המאורע 
+\begin_inset Quotes eld
+\end_inset
+
+קיים לפחות זוג נורות אחד שנשרף באותו היום (תיקו)
+\begin_inset Quotes erd
+\end_inset
+
+ ( נסמנו ב
+\begin_inset Formula $A_{2}=\left\{ 1\leqslant Y\right\} $
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+אם מתקיים 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ אזי מתקיים 
+\begin_inset Formula $A_{2}$
+\end_inset
+
+,
+ כלומר 
+\begin_inset Formula $A_{1}\subseteq A_{2}$
+\end_inset
+
+,
+ ולכן ממונטוניות פונק' ההסתברות נקבל כי מתקיים 
+\begin_inset Formula 
+\[
+\probability\left(A_{1}\right)\leqslant\probability\left(A_{2}\right)=\probability\left(1\leqslant Y\right)\overset{markov}{\leqslant}\frac{\expectedValue\left(Y\right)}{1}=\expectedValue\left(Y\right)\overset{linearity}{=}\sum_{i\neq j}\expectedValue\left(\mathbb{I}_{x_{i}=x_{j}}\right)=\sum_{i\neq j}\probability\left(x_{i}=x_{j}\right)=\sum_{i\neq j}\frac{1-p}{q+p}=\frac{N\left(N-1\right)\left(1-p\right)}{2\left(1+p\right)}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1531,12 +2000,157 @@ today
 (א)
 \end_layout
 
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X$
+\end_inset
+
+ סופר בעצם כמה מתוך 
+\begin_inset Formula $A_{n}$
+\end_inset
+
+ מתרחשים.
+ כלומר לכל 
+\begin_inset Formula $\omega\in\Omega$
+\end_inset
+
+,
+ 
+\begin_inset Formula $X\left(\omega\right)$
+\end_inset
+
+ שווה למספר המאורעות 
+\begin_inset Formula $A_{n}$
+\end_inset
+
+ המכילים את 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כלומר אם 
+\begin_inset Formula $\omega\in A_{1}$
+\end_inset
+
+ וגם 
+\begin_inset Formula $\omega\notin A_{2,...,N}$
+\end_inset
+
+ אז 
+\begin_inset Formula $X\left(\omega\right)=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\omega\in A_{1}\cap A_{2}$
+\end_inset
+
+ אז 
+\begin_inset Formula $X\left(\omega\right)=2$
+\end_inset
+
+ וכן הלאה.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $\bigcup_{n=1}^{N}A_{n}$
+\end_inset
+
+ הוא קבוצה של כל 
+\begin_inset Formula $\omega$
+\end_inset
+
+ אשר שייך ל
+\begin_inset Formula $A_{n}$
+\end_inset
+
+אחד לפחות.
+ וזה בדיוק 
+\begin_inset Formula $X\geqslant1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כלומר 
+\begin_inset Formula 
+\[
+\bigcup_{n=1}^{N}A_{n}=X\geqslant1
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 (ב)
 \end_layout
 
-\begin_layout Subsection*
-(ג)
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם נשתמש באי שוויון מרקוב עבור 
+\begin_inset Formula $1$
+\end_inset
+
+,
+ נקבל 
+\begin_inset Formula 
+\[
+\probability\left(X\geqslant1\right)\leqslant\expectedValue\left(X\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מהגדרות השאלה ומלינאריות התוחלת נקבל
+\begin_inset Formula 
+\[
+\expectedValue\left(X\right)=\expectedValue\sum_{n=1}^{N}\mathbb{I}_{A_{n}}=\sum_{n=1}^{N}\expectedValue\mathbb{I}_{A_{n}}=\sum_{n=1}^{N}\probability\left(A_{n}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\[
+\probability\left(\bigcup_{n=1}^{N}A_{n}\right)=\probability\left(X\geqslant1\right)\leqslant\expectedValue\left(X\right)=\sum_{n=1}^{N}\probability\left(A_{n}\right)
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+שזה בול אי שוויון בול וסיימנו.
 \end_layout
 
 \begin_layout Standard
@@ -1547,48 +2161,116 @@ today
 \end_layout
 
 \begin_layout Section*
-שאלה
-\family roman
-\series bold
-\shape smallcaps
-\size larger
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-6
-\numeric off
- 
+שאלת בונוס
 \end_layout
 
-\begin_layout Subsection*
-(א)
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsection*
-(ב)
+\begin_layout Standard
+רצף יכול להתחיל בהתחלה ובאמצע.
 \end_layout
 
-\begin_layout Subsection*
-(ג)
+\begin_layout Standard
+בנוסף,
+ רצף מכיל לכל הפחות תת-רצף של שתי הטלות עץ.
+\end_layout
+
+\begin_layout Standard
+כאשר נתחיל באינדקס ה
+\begin_inset Formula $0$
+\end_inset
+
+,
+ האיבר ה
+\begin_inset Formula $0$
+\end_inset
+
+ צריך להיות עץ,
+ והאיבר ה
+\begin_inset Formula $1$
+\end_inset
+
+ צריך להיות עץ.
+\end_layout
+
+\begin_layout Standard
+הההסתברות של זה לקרות היא 
+\begin_inset Formula $\frac{1}{4}$
+\end_inset
+
+,
+ חצי לאינדקס הזה וחצי לאינדקס הזה.
+\end_layout
+
+\begin_layout Standard
+אם נתחיל באמצע,
+ האינדקס ה
+\begin_inset Formula $i$
+\end_inset
+
+ צריך להיות עץ,
+ האינדקס ה
+\begin_inset Formula $i-1$
+\end_inset
+
+ צריך להיות פלי,
+ וגם האינדקס ה
+\begin_inset Formula $i+1$
+\end_inset
+
+ צריך להיות עץ.
+\end_layout
+
+\begin_layout Standard
+ההסתברות של זה לקרות היא 
+\begin_inset Formula $\frac{1}{8}$
+\end_inset
+
+,
+ חצי לכל אינדקס.
+\end_layout
+
+\begin_layout Standard
+ויש 
+\begin_inset Formula $n-2$
+\end_inset
+
+ מקומות שהרצף יתחיל,
+ אלה המקומות חוץ מהמקום הראשון והאחרון.
+\end_layout
+
+\begin_layout Standard
+אלה גם התוחלות כי מדובר במשתנים מציינים שזה קרה,
+ כלומר הרצף התחיל במקום הראשון והתחיל במקום באמצע.
+\end_layout
+
+\begin_layout Standard
+אז יש בסך הכול 
+\begin_inset Formula 
+\[
+\expectedValue\left(X\right)=\sum_{A\in\mathcal{A}}\expectedValue\left(X\mathbb{I}_{A}\right)=\left(n-2\right)\frac{1}{8}+\frac{1}{4}=\frac{n}{8}-\frac{2}{8}+\frac{2}{8}=\frac{n}{8}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן נמצא כי תוחלת כמות הרצפים ל
+\begin_inset Formula $n$
+\end_inset
+
+ מסוים היא 
+\begin_inset Formula $\frac{n}{8}$
+\end_inset
+
+.
 \end_layout
 
 \end_body
