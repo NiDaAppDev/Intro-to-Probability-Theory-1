@@ -96,6 +96,14 @@
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "/home/nitzan-daloomy/Documents/MacrosStandard.lyx"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
 filename "../../../../../../../texlive/MacrosStandard.lyx"
 literal "false"
 
@@ -1124,6 +1132,26 @@ Var\left(X\right)=\expectedValue\left(X^{2}\right)-\expectedValue\left(X\right)^
 \end_layout
 
 \begin_layout Standard
+ראשית,
+ נחשב את 
+\begin_inset Formula $\Ex\left(X_{n}^{2}\right)$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align*}
+ & \Ex\left(X_{n}^{2}\right)=\Ex\left(\sum_{i=1}^{n-2}X_{i}^{2}+\sum_{i,j\in\left[n-2\right],\left|i-j\right|=1}X_{i}X_{j}+\sum_{i,j\in\left[n-2\right],\left|i-j\right|=2}X_{i}X_{j}+\sum_{i,j\in\left[n-2\right],3\le\left|i-j\right|}X_{i}X_{j}\right)=\\
+ & \exeq{\text{מלינאריות התוחלת}}\Ex\left(X_{n}\right)+\sum_{i,j\in\left[n-2\right],\left|i-j\right|=1}\Ex\left(X_{i}X_{j}\right)+\sum_{i,j\in\left[n-2\right],\left|i-j\right|=2}\Ex\left(X_{i}X_{j}\right)+\sum_{i,j\in\left[n-2\right],3\le\left|i-j\right|}\Ex\left(X_{i}X_{j}\right)=\\
+ & \exeq{\text{תוחלת של מ"מ מציין}}\left(n-2\right)p^{3}+\sum_{i,j\in\left[n-2\right],\left|i-j\right|=1}\probability\left(X_{i}X_{j}=1\right)+\sum_{i,j\in\left[n-2\right],\left|i-j\right|=2}\probability\left(X_{i}X_{j}=1\right)+\sum_{i,j\in\left[n-2\right],3\le\left|i-j\right|}\probability\left(X_{i}X_{j}=1\right)=\\
+ & =\left(n-2\right)p^{3}+\sum_{i,j\in\left[n-2\right],\left|i-j\right|=1}\probability\left(X_{i}=1\cap X_{j}=1\lvert X_{i}=1\right)+\sum_{i,j\in\left[n-2\right],\left|i-j\right|=2}\probability\left(X_{i}=1\cap X_{j}=1\lvert X_{i}=1\right)+\\
+ & +\sum_{i,j\in\left[n-2\right],3\le\left|i-j\right|}\probability\left(X_{i}=1\cap X_{j}=1\lvert X_{i}=1\right)\underbrace{=}_{\text{לאחר חישוב}}\\
+ & =\left(n-2\right)p^{3}+2\left(n-3\right)p^{3}p+2\left(n-4\right)p^{3}p^{2}+\left({n \choose 2}-2\left(n-3+n-4\right)\right)p^{3}p^{3}=\\
+ & =\left(n-2\right)p^{3}+2\left(n-3\right)p^{4}+2\left(n-4\right)p^{5}+\left({n \choose 2}-2\left(n-7\right)\right)p^{6}=\\
+ & =
+\end{align*}
+
+\end_inset
+
 
 \end_layout
 
