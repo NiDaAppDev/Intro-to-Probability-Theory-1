@@ -420,6 +420,15 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\Ex}{\mathbb{E}}
+{\mathbb{E}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\kaliUnitOperator}{\mathbb{I}}
 {\mathbb{I}}
 \end_inset
@@ -888,8 +897,107 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\renewcommand{\rank}{\text{rank}}
-{\text{rank}}
+\newcommand{\bs}{\blacksquare}
+{\text{\ensuremath{\blacksquare}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\norm}[1]{\left\Vert #1\right\Vert }
+{\left\Vert #1\right\Vert }
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pnorm}[2]{\left\Vert #1\right\Vert _{#2}}
+{\left\Vert #1\right\Vert _{#2}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\limit}[2]{\lim_{#1\to#2}}
+{\lim_{#1\to#2}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\an}[2]{\left(#1_{#2}\right)_{#2=1}^{\infty}}
+{\left(#1_{#2}\right)_{#2=1}^{\infty}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ank}[3]{\left(#1_{#2_{#3}}\right)_{#3=1}^{\infty}}
+{\left(#1_{#2_{#3}}\right)_{#3=1}^{\infty}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fan}[2]{\left(f\left(#1_{#2}\right)\right)_{#2=1}^{\infty}}
+{\left(f\left(#1_{#2}\right)\right)_{#2=1}^{\infty}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\exp}[2]{\underbrace{#1}_{#2}}
+{\underbrace{#1}_{#2}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\exeq}[1]{\underbrace{=}_{#1}}
+{\underbrace{=}_{#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\exle}[1]{\underbrace{\le}_{#1}}
+{\underbrace{\le}_{#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\der}[1]{#1^{\prime}}
+{#1^{\prime}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pder}[3]{\frac{\partial^{#1}#2}{#3}}
+{\frac{\partial^{#1}#2}{#3}}
 \end_inset
 
 
