@@ -1,0 +1,1014 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+
+\usepackage{algorithm,algpseudocode}
+\usepackage{float}
+\floatstyle{ruled}
+\restylefloat{algorithm}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children no
+\language hebrew
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "default" "David CLM"
+\font_sans "default" "David CLM"
+\font_typewriter "default" "David CLM"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "../MacrosStandard.lyx"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+הסתברות | תרגיל מס'
+\family roman
+\shape up
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ ניצן דלומי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+212071914
+\lang hebrew
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ תומר לוי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+323961854
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתקיים:
+\begin_inset Formula 
+\[
+X\sim Unif\left(\range{-n}n\right)\Longrightarrow\forall k\in\range{-n}n\probability\left(X=k\right)=\frac{1}{2n+1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $F\left(X\right)=Xf\left(X\right)$
+\end_inset
+
+.
+ אזי מתקיים:
+\begin_inset Formula 
+\begin{align*}
+ & \Ex\left(F\left(X\right)\right)\exeq{\text{תוחלת של פונקציה}}\sum_{k\in\range{-n}n}F\left(k\right)\cdot\probability\left(X=k\right)=\sum_{k\in\left[n\right]}\frac{F\left(X=k\right)}{2n+1}+0\cdot f\left(0\right)\cdot\probability\left(X=0\right)+\sum_{k\in-\left[n\right]}\frac{F\left(X=k\right)}{2n+1}=\\
+ & =\sum_{k\in\left[n\right]}\frac{F\left(X=k\right)}{2n+1}+0+\sum_{k\in\left[n\right]}\frac{F\left(X=-k\right)}{2n+1}\exeq{\text{מהגדרת \ensuremath{F} וזוגיות \ensuremath{f}}}\sum_{k\in\left[n\right]}\frac{F\left(X=k\right)}{2n+1}-\sum_{k\in\left[n\right]}\frac{F\left(X=k\right)}{2n+1}=0\\
+ & E\left(X\right)=\sum_{k\in\range{-n}n}k\cdot\probability\left(X=k\right)=\sum_{k\in\left[n\right]}k\cdot\probability\left(X=k\right)+0\cdot\probability\left(X=0\right)+\sum_{k\in-\left[n\right]}k\cdot\probability\left(X=k\right)=\\
+ & =\sum_{k\in\left[n\right]}k\cdot\probability\left(X=k\right)+0\cdot\probability\left(X=0\right)+\sum_{k\in-\left[n\right]}k\cdot\probability\left(X=k\right)=\sum_{k\in\left[n\right]}k\cdot\probability\left(X=k\right)+\sum_{k\in\left[n\right]}-k\cdot\probability\left(X=-k\right)=\\
+ & \exeq{\text{}}\sum_{k\in\left[n\right]}\frac{k}{2n+1}-\sum_{k\in\left[n\right]}\frac{k}{2n+1}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ מתקיים:
+\begin_inset Formula 
+\[
+Cov\left(X,f\left(X\right)\right)=\Ex\left(Xf\left(X\right)\right)-\Ex\left(X\right)\Ex\left(f\left(X\right)\right)=0-0\cdot\Ex\left(f\left(X\right)\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר אכן מתקיים כי 
+\begin_inset Formula $X,f\left(X\right)$
+\end_inset
+
+ בלתי מתואמים.
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ נתבונן במאורע 
+\begin_inset Formula $\left\{ X=1\cap f\left(X\right)=a\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מהיות 
+\begin_inset Formula $f$
+\end_inset
+
+ זוגית,
+ מאורע זה שקול למאורע 
+\begin_inset Formula $\left\{ X=1\cap X\in\left\{ -f^{-1}\left(a\right),f^{-1}\left(a\right)\right\} \right\} $
+\end_inset
+
+,
+ ששקול למאורע 
+\begin_inset Formula $\left\{ f^{-1}\left(a\right)\in\left\{ -1,1\right\} \right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כעת,
+ נבחין כי המאורע האחרון שקול למאורע 
+\begin_inset Formula $\left\{ f\left(-1\right)=a\cup f\left(1\right)=a\right\} $
+\end_inset
+
+,
+ ומזוגיות 
+\begin_inset Formula $f$
+\end_inset
+
+ מאורע זה שקול למאורע 
+\begin_inset Formula $\left\{ f\left(1\right)=a\right\} $
+\end_inset
+
+ (שכן
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(1\right)=f\left(-1\right)$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+נבחין כי אם אכן 
+\begin_inset Formula $f\left(1\right)=a$
+\end_inset
+
+,
+ נקבל כי 
+\begin_inset Formula $\probability\left(X=1\cap f\left(X\right)=a\right)=\probability\left(f\left(1\right)=a\right)=1$
+\end_inset
+
+,
+ אחרת 
+\begin_inset Formula $\probability\left(X=1\cap f\left(X\right)=a\right)=\probability\left(f\left(1\right)=a\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כעת,
+ נבחין כי מתקיים:
+ 
+\begin_inset Formula 
+\[
+\probability\left(f\left(X\right)=k\right)=\probability\left(X=f^{-1}\left(k\right)\cup X=-f^{-1}\left(k\right)\right)=\frac{2}{2n+1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+,
+ ולכן מתקיים:
+\begin_inset Formula 
+\[
+\probability\left(X=1\cap f\left(X\right)=a\right)\in\left\{ 0,1\right\} ,\probability\left(X=1\right)\probability\left(f\left(X\right)=a\right)=\frac{2}{\left(2n+1\right)^{2}}\Longrightarrow\probability\left(X=1\cap f\left(X\right)=a\right)\ne\probability\left(X=1\right)\probability\left(f\left(X\right)=a\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר,
+ 
+\begin_inset Formula $X,f\left(X\right)$
+\end_inset
+
+ לא ב
+\begin_inset Quotes erd
+\end_inset
+
+ת.
+ 
+\begin_inset Formula $\bs$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בהנתן טבלה בגודל 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ נגדיר לכל 
+\begin_inset Formula $i,j\in\left[n-1\right]$
+\end_inset
+
+ מ
+\begin_inset Quotes erd
+\end_inset
+
+מ 
+\begin_inset Formula $Y_{i,j}$
+\end_inset
+
+ מציין האם הריבוע בגודל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $2\times2$
+\end_inset
+
+ שפינתו השמאלית עליונה היא באינדקס 
+\begin_inset Formula $\left[i,j\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הוא מהצורה הנדרשת או לא.
+\end_layout
+
+\begin_layout Standard
+נבחין כי מאי-תלות הטלת המטבע בכל תא,
+ מתקיים כי 
+\begin_inset Formula $\forall i,j\in\left[n-1\right]\quad\probability\left(Y_{i,j}\right)=\frac{1}{16}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ 
+\begin_inset Formula $\forall i,j\in\left[n-1\right]\quad\Ex\left(Y_{i,j}\right)=\frac{1}{16}$
+\end_inset
+
+ (תוחלת של מ
+\begin_inset Quotes erd
+\end_inset
+
+מ מציין).
+\end_layout
+
+\begin_layout Standard
+אם כן:
+\begin_inset Formula 
+\[
+\forall n\in\natural\quad\Ex\left(X_{n}\right)=\Ex\left(\sum_{i,j\in\left[n-1\right]}Y_{i,j}\right)\exeq{\text{מלינאריות התוחלת}}\sum_{i,j\in\left[n-1\right]}\Ex\left(Y_{i,j}\right)=\frac{\left(n-1\right)^{2}}{16}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ מתקיים:
+\begin_inset Formula 
+\begin{align*}
+ & \forall i,j\in\left[n-1\right]\quad Var\left(Y_{i,j}\right)=\Ex\left(Y_{i,j}^{2}\right)-\left(\Ex\left(Y_{i,j}\right)\right)^{2}\exeq{\text{מ"מ מציין בריבוע הוא עצמו}}\Ex\left(Y_{i,j}\right)\left(1-\Ex\left(Y_{i,j}\right)\right)=\\
+ & =\frac{1}{16}\cdot\frac{15}{16}=\frac{15}{256}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחלק את השונות המשותפת של שני מ
+\begin_inset Quotes erd
+\end_inset
+
+מ 
+\begin_inset Formula $Y_{i_{1},j_{1}},Y_{i_{2},j_{2}}$
+\end_inset
+
+ לשני מקרים:
+\end_layout
+
+\begin_layout Standard
+ישנן שתי צורות (בלי חזרה על מקרים) שבהן ישנה חפיפה במשבצת אחת בין שני ריבועים.
+\end_layout
+
+\begin_layout Standard
+במקרה כזה,
+ מתקיים:
+ 
+\begin_inset Formula 
+\[
+\Ex\left(Y_{i_{1},j_{1}}\cap Y_{i_{2},j_{2}}\right)=\Ex\left(Y_{i,j}\cap Y_{i+1,j-1}\right)=\Ex\left(Y_{i,j}\cap Y_{i-1,j+1}\right)=\frac{1}{16}\cdot\frac{1}{8}=\frac{1}{128}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ישנן שתי אפשרויות לחפיפה במשבצת יחידה,
+ ולכל אפשרות כזו ישנן 
+\begin_inset Formula $\left(n-2\right)^{2}$
+\end_inset
+
+ משבצות שחופפות בין זוג שכזה,
+ לכן מלינאריות
+\end_layout
+
+\begin_layout Standard
+התוחלת:
+\begin_inset Formula 
+\[
+\Ex\left(X_{n}\right)=\frac{\left(n-2\right)^{2}}{64}\approx c\cdot n^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+במקרה השני,
+ ישנה חפיפה בשתי משבצות בין שני ריבועים.
+\end_layout
+
+\begin_layout Standard
+במקרה כזה,
+ מתקיים:
+\begin_inset Formula 
+\[
+\Ex\left(Y_{i_{1},j_{1}}\cap Y_{i_{2},j_{2}}\right)=\Ex\left(Y_{i,j}\cap Y_{i,j+1}\right)=\Ex\left(Y_{i,j}\cap Y_{i+1,j}\right)=\frac{1}{16}\cdot\frac{1}{4}=\frac{1}{64}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ישנן שתי צורות למצב כזה (מבלי לחזור על אותו המקרה פעמיים),
+ ולכל צורה כזו ישנן 
+\begin_inset Formula $\left(n-2\right)\left(n-1\right)$
+\end_inset
+
+ זוגות של משבצות שחופפות
+\end_layout
+
+\begin_layout Standard
+בין זוג שכזה,
+ לכן מלינאריות התוחלת:
+\begin_inset Formula 
+\[
+\Ex\left(X_{n}\right)=\frac{\left(n-1\right)\left(n-2\right)}{64}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ מתקיים:
+\begin_inset Formula 
+\begin{align*}
+ & Var\left(X_{n}\right)=\sum_{i,j\in\left[n-1\right]}Var\left(Y_{i,j}\right)+2\sum_{1\le i_{1}<j_{1}\le n}Cov\left(Y_{i_{1},j_{1}},Y_{i_{2},j_{2}}\right)=\\
+ & =\sum_{i,j\in\left[n-1\right]}\frac{15}{256}+2\left(\frac{\left(n-2\right)^{2}}{64}+\frac{3\left(n-1\right)\left(n-2\right)}{128}\right)=\\
+ & =\frac{15\left(n-1\right)^{2}}{256}+2\left(\frac{\left(n-2\right)^{2}}{64}+\frac{3\left(n-1\right)\left(n-2\right)}{128}\right)\approx c\cdot n^{2}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת,
+ נחשב את הבאים:
+\begin_inset Formula 
+\[
+\forall n\in\natural\quad\Ex\left(\frac{X_{n}}{\Ex\left(X_{n}\right)}\right)\exeq{\text{מלינאריות התוחלת}}\frac{\Ex\left(X_{n}\right)}{\Ex\left(X_{n}\right)}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן מתקיים (גבול של קבוע):
+\begin_inset Formula 
+\[
+\Ex\left(\frac{X_{n}}{\Ex\left(X_{n}\right)}\right)\overset{d}{\longrightarrow}1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ 
+\begin_inset Formula 
+\[
+Var\left(\frac{X_{n}}{\Ex\left(X_{n}\right)}\right)\exeq{\text{כיול ריבועי}}\frac{Var\left(X_{n}\right)}{\left(\Ex\left(X_{n}\right)\right)^{2}}\exp{\approx}{\text{הראינו}}\frac{c\cdot n^{2}}{\left(c\cdot n^{2}\right)^{2}}=c\frac{n^{2}}{n^{4}}\overset{d}{\longrightarrow}0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ מתנאי תוחלת ושונות להתכנסות לקבוע,
+ מתקיים:
+\begin_inset Formula 
+\[
+X_{n}\overset{d}{\longrightarrow}1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+ 
+\begin_inset Formula $\bs$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & \Ex\left(Z_{n}\right)\exeq{\text{מלינאריות התוחלת}}\sum_{i\in\left[n\right]}\Ex\left(Y_{i}\right)=\sum_{i\in\left[n\right]}\frac{3}{4}=\boxed{\frac{3n}{4}}\\
+ & Var\left(Z_{n}\right)=\sum_{i\in\left[n\right]}Var\left(Y_{i}\right)+2\sum_{1\le i<j\le n}Cov\left(Y_{i},Y_{j}\right)=\sum_{i\in\left[n\right]}\left(\Ex\left(Y_{i}^{2}\right)-\left(\Ex\left(Y_{i}\right)\right)^{2}\right)+2\sum_{\begin{matrix}1\le i<j\le n\\
+j=i+1
+\end{matrix}}Cov\left(Y_{i},Y_{j}\right)=\\
+ & \exeq{\text{תוחלת של מ"מ מציין}}\sum_{i\in\left[n\right]}\left(\Ex\left(Y_{i}\right)+\left(\Ex\left(Y_{i}\right)\right)^{2}\right)+2\sum_{\begin{matrix}1\le i<j\le n\\
+j=i+1
+\end{matrix}}\left(\Ex\left(Y_{i}Y_{j}\right)-\Ex\left(Y_{i}\right)\Ex\left(Y_{j}\right)\right)=\\
+ & =\frac{3n}{16}+2\sum_{\begin{matrix}1\le i<j\le n\\
+j=i+1
+\end{matrix}}\left(\frac{10}{16}-\frac{9}{16}\right)=\frac{3n}{16}+\frac{n}{8}=\boxed{\frac{5n}{16}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $0<\varepsilon$
+\end_inset
+
+.
+ לכל 
+\begin_inset Formula $n\in\natural$
+\end_inset
+
+ מתקיים:
+\begin_inset Formula 
+\[
+\varepsilon\le\left|\frac{1}{2n}\sum_{i=1}^{2n}Y_{i}-\frac{3}{4}\right|\Longrightarrow2n\varepsilon\le\left|\sum_{i=1}^{2n}Y_{i}-2n\frac{3}{4}\right|=\left|Z_{2n}-\Ex\left(Z_{2n}\right)\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם כן:
+\begin_inset Formula 
+\[
+\probability\left(\varepsilon\le\left|\frac{1}{2n}\sum_{i=1}^{2n}Y_{i}-\frac{3}{4}\right|\right)=\probability\left(2n\varepsilon\le\left|Z_{2n}-\Ex\left(Z_{2n}\right)\right|\right)\exle{\text{א"ש צ'בישב}}\frac{Var\left(Z_{2n}\right)}{\left(2n\varepsilon\right)^{2}}=\frac{\frac{5n}{16}}{4n^{2}\varepsilon^{2}}\approx c\frac{n}{n^{2}}\underset{n\to\infty}{\longrightarrow}0\quad\bs
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Subsection*
+(ג)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Subsection*
+(ג)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Subsection*
+(ג)
+\end_layout
+
+\end_body
+\end_document

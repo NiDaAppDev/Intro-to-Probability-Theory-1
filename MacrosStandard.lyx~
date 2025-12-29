@@ -994,5 +994,50 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pder}[3]{\frac{\partial^{#1}#2}{#3}}
+{\frac{\partial^{#1}#2}{#3}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\funcFromTo}[3]{#1:#2\to#3}
+{#1:#2\to#3}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\realk}[1]{\real^{#1}}
+{\real^{#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\taylorPolynomial}[3]{P_{#1,#2}^{#3}}
+{P_{#1,#2}^{#3}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\range}[1]{\left\{ #1,\ldots,#2\right\} }
+{\left\{ #1,\ldots,#2\right\} }
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
